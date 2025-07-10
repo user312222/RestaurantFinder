@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RestaurantFinder.DataAccess.Abstract
+namespace RestaurantFinder.Business.Abstract
 {
-    public interface IRestaurantRepository
+    public interface IRestaurantService
     {
 
         List<Restaurant> GetAllRestaurants();
@@ -15,6 +15,5 @@ namespace RestaurantFinder.DataAccess.Abstract
         Restaurant CreateRestaurant(Restaurant restaurant);
         Restaurant UpdateRestaurant(Restaurant restaurant);
         void DeleteRestaurant(int id);
-
     }
 }

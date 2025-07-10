@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFinder.Entities",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFinder.DataAccess", "RestaurantFinder.DataAccess\RestaurantFinder.DataAccess.csproj", "{BF2EE5F2-EC24-4C65-941A-F3576CE5DE1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFinder.Business", "RestaurantFinder.Business\RestaurantFinder.Business.csproj", "{F495B599-842A-4F97-AA1A-6E2DDF2E8759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFinder.API", "RestaurantFinder.API\RestaurantFinder.API.csproj", "{145C0180-631C-4F17-9AFF-430D2A45A0A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{BF2EE5F2-EC24-4C65-941A-F3576CE5DE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF2EE5F2-EC24-4C65-941A-F3576CE5DE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF2EE5F2-EC24-4C65-941A-F3576CE5DE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F495B599-842A-4F97-AA1A-6E2DDF2E8759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F495B599-842A-4F97-AA1A-6E2DDF2E8759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F495B599-842A-4F97-AA1A-6E2DDF2E8759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F495B599-842A-4F97-AA1A-6E2DDF2E8759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{145C0180-631C-4F17-9AFF-430D2A45A0A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{145C0180-631C-4F17-9AFF-430D2A45A0A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{145C0180-631C-4F17-9AFF-430D2A45A0A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{145C0180-631C-4F17-9AFF-430D2A45A0A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

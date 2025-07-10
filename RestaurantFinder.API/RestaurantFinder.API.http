@@ -1,0 +1,6 @@
+@RestaurantFinder.API_HostAddress = http://localhost:5258
+
+GET {{RestaurantFinder.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

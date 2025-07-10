@@ -14,4 +14,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantFinder.DataAccess\RestaurantFinder.DataAccess.csproj" />
+    <ProjectReference Include="..\RestaurantFinder.Entities\RestaurantFinder.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
